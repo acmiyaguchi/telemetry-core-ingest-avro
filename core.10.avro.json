@@ -1,0 +1,223 @@
+{
+  "fields": [
+    {
+      "name": "accessibilityServices",
+      "type": [
+        {
+          "type": "null"
+        },
+        {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        }
+      ]
+    },
+    {
+      "name": "arch",
+      "type": "string"
+    },
+    {
+      "name": "bug_1501329_affected",
+      "type": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "name": "campaign",
+      "type": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "clientId",
+      "type": "string"
+    },
+    {
+      "name": "created",
+      "type": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "defaultBrowser",
+      "type": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "name": "defaultSearch",
+      "type": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "device",
+      "type": "string"
+    },
+    {
+      "name": "displayVersion",
+      "type": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "distributionId",
+      "type": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "durations",
+      "type": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "int"
+        }
+      ]
+    },
+    {
+      "name": "experiments",
+      "type": [
+        {
+          "type": "null"
+        },
+        {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        }
+      ]
+    },
+    {
+      "name": "flashUsage",
+      "type": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "int"
+        }
+      ]
+    },
+    {
+      "name": "locale",
+      "type": "string"
+    },
+    {
+      "name": "os",
+      "type": "string"
+    },
+    {
+      "name": "osversion",
+      "type": "string"
+    },
+    {
+      "name": "profileDate",
+      "type": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "int"
+        }
+      ]
+    },
+    {
+      "name": "searches",
+      "type": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "map",
+          "values": {
+            "type": "int"
+          }
+        }
+      ]
+    },
+    {
+      "name": "seq",
+      "type": "int"
+    },
+    {
+      "name": "sessions",
+      "type": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "int"
+        }
+      ]
+    },
+    {
+      "name": "showTrackerStatsShare",
+      "type": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "name": "tz",
+      "type": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "int"
+        }
+      ]
+    },
+    {
+      "name": "v",
+      "type": "int"
+    }
+  ],
+  "name": "root",
+  "type": "record"
+}
